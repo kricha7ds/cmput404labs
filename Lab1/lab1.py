@@ -9,7 +9,10 @@ URL = "http://www.google.com/"
 r = requests.get(URL)
 print(r)
 
-# Download scrip from GitHub and print out source code.
+# Download script from GitHub and print out source code.
 gitURL = "https://github.com/kricha7ds/cmput404labs/blob/main/lab1.py"
 r = requests.get(gitURL, allow_redirects=True)
 print(r.text)
+
+# Access code on GitHub via this link:
+# https://github.com/kricha7ds/cmput404labs/blob/main/Lab1/lab1.py

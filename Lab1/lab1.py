@@ -10,7 +10,7 @@ r = requests.get(URL)
 print(r)
 
 # Download script from GitHub and print out source code.
-gitURL = "https://github.com/kricha7ds/cmput404labs/blob/main/lab1.py"
+gitURL = "https://raw.githubusercontent.com/kricha7ds/cmput404labs/main/Lab1/lab1.py"
 r = requests.get(gitURL, allow_redirects=True)
 print(r.text)
 

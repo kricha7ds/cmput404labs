@@ -1,3 +1,4 @@
 .DS_Store
 lab4.txt
 /env
+/mysite/__pycache__
